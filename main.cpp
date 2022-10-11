@@ -14,9 +14,12 @@ int main() {
 	system("clear");
 	string input, print, comment;
 	int cookies, milk;
+  int line = 1;
   int loop = 1;
   while (loop == 1) {
+    cout << "> ";
 	cin>>input;
+    int line = line + 1;
 	if (input == "SANTA!"){
 	cout << "Hello, World!" << endl; 
 	}
@@ -64,7 +67,9 @@ int main() {
           cout << cookies / milk << endl;
         }
      else{
-      cout << "COAL(err_unknown_input)" << endl;
+      cout << "THERE IS A NAGUTHY CHILD ON LINE [" << line << "]" << endl;
+       cout << "    COAL(err_unk_input)" << endl;
     }
    }
 }
+ 
