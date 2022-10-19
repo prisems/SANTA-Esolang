@@ -16,7 +16,7 @@ Run SANTA code: https://replit.com/@EarthRulerr/SANTA-Esolang?v=1
   
   <code> SANTA! HOHOHO this will print "Hello, World!" </code>
   
-  <code> BEER HOHOHO this will print 99 bottles of beer on the wall. </code>
+  <code> MILK HOHOHO this will print 99 glasses of milk on the wall. (spin of beer on the wall)</code>
   
   <code>HOHOHO</code> is a comment. You can only comment before PRINTER. If anything is ran on the same line as PRINTER and after PRINTER (IE 
   
