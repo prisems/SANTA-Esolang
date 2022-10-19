@@ -20,6 +20,28 @@ int main() {
     cout << "> ";
 	cin>>input;
     int line = line + 1;
+#include <iostream>
+#include <string>
+#include <cstdlib>
+#include <ctime>
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif
+using namespace std;
+
+
+int main() { 
+	system("clear");
+	string input, print, comment;
+	int cookies, milk;
+  int line = 1;
+  int loop = 1;
+  while (loop == 1) {
+    cout << "> ";
+	cin>>input;
+    int line = line + 1;
 	if (input == "SANTA!"){
 	cout << "Hello, World!" << endl; 
 	}
@@ -27,21 +49,21 @@ int main() {
     getline(cin,print);
 		cout << print << endl;
 	}
-	else if (input == "BEER"){
+	else if (input == "MILK"){
 		int bottle = 99;
     	while (bottle > 0){
-	    	cout << bottle << " bottles of beer on the wall,"
-	        << bottle << " bottles of beer." << endl;
+	    	cout << bottle << " glasses of milk on the wall,"
+	        << bottle << " glasses of milk." << endl;
 	    	bottle--;
-	    	cout << "Take one down and pass it around" << bottle << " " << "bottles of beer on the wall./n" << endl;
+	    	cout << "Take one down and pass it around" << bottle << " " << "glasses of milk on the wall" << endl;
 	    	if (bottle == 1){
 	        break;
 	    	}
 	    }
-	    cout << "1 bottle of beer on the wall, 1 bottle of bear." << endl;
-	    cout << "Take one down and pass it around, no more bottles of beer on the wall./n" << endl;
-	    cout << "No more bottles of beer on the wall, no more bottls of beer." << endl;
-	    cout << "Go to the store and buy some more, 99 bottles of beer on the wall.";
+	    cout << "1 glass of milk on the wall, 1 glass of milk." << endl;
+	    cout << "Take one down and pass it around, no more glasses of milk on the wall" << endl;
+	    cout << "No more glasses of milk on the wall, no more glasses of milk." << endl;
+	    cout << "Go to the store and buy some more, 99 glasses of milk on the wall.";
 
     return 0;
 	}
@@ -65,11 +87,10 @@ int main() {
         }
               else if(input == "DIV"){
           cout << cookies / milk << endl;
-        }
+                }
      else{
       cout << "THERE IS A NAGUTHY CHILD ON LINE [" << line << "]" << endl;
        cout << "    COAL(err_unk_input)" << endl;
     }
    }
 }
- 
