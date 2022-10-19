@@ -10,6 +10,9 @@ Run SANTA code: https://replit.com/@EarthRulerr/SANTA-Esolang?v=1
 
 # HOW TO USE
 
+<br>
+BEFORE RUNNING CODE YOU MUST USE <code> CHRISTMAS! </code>, to end code you may use <code> COAL </code>
+
  <code> PRINTER this is some text that will be printed to console. </code> 
   
 <code> HOHOHO this is a comment.</code> 
