@@ -12,32 +12,14 @@ using namespace std;
 
 int main() { 
 	system("clear");
-	string input, print, comment;
+	string input, print, comment, bag, start, coal_check;
+  string fix = "NIL";
 	int cookies, milk;
   int line = 1;
   int loop = 1;
-  while (loop == 1) {
-    cout << "> ";
-	cin>>input;
-    int line = line + 1;
-#include <iostream>
-#include <string>
-#include <cstdlib>
-#include <ctime>
-#ifdef _WIN32
-#include <Windows.h>
-#else
-#include <unistd.h>
-#endif
-using namespace std;
-
-
-int main() { 
-	system("clear");
-	string input, print, comment;
-	int cookies, milk;
-  int line = 1;
-  int loop = 1;
+  int coal = 2;
+  cin >> start;
+  if(start == "CHRISTMAS!"){
   while (loop == 1) {
     cout << "> ";
 	cin>>input;
@@ -88,9 +70,25 @@ int main() {
               else if(input == "DIV"){
           cout << cookies / milk << endl;
                 }
+                else if(input == "COAL"){
+                  loop = 2;
+                  coal = 1;
+                  while (coal == 1){
+                  cin >> coal_check;
+                  if(coal_check == "CHRISTMAS!"){
+                    loop = 1;
+                    coal = 2;
+                  }
+                  else{
+                    cout << "COAL: PROGRAM STOPPED" << endl;
+                    cout << "FIX: CHRISTMAS!" << endl;
+                  }
+                    }
+                  }
      else{
       cout << "THERE IS A NAGUTHY CHILD ON LINE [" << line << "]" << endl;
-       cout << "    COAL(err_unk_input)" << endl;
+       cout << "    FIX: " << fix << endl;
     }
-   }
+    }
+  }
 }
