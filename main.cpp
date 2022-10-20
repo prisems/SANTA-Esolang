@@ -31,7 +31,7 @@ int main() {
     getline(cin,print);
 		cout << print << endl;
 	}
-	else if (input == "MILK"){
+	else if (input == "MILK!"){
 		int bottle = 99;
     	while (bottle > 0){
 	    	cout << bottle << " glasses of milk on the wall,"
