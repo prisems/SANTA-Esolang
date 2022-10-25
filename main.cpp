@@ -21,9 +21,9 @@ int main() {
   cin >> start;
   if(start == "CHRISTMAS!"){
   while (loop == 1) {
+    int line = line + 1;
     cout << "> ";
 	cin>>input;
-    int line = line + 1;
 	if (input == "SANTA!"){
 	cout << "Hello, World!" << endl; 
 	}
