@@ -6,7 +6,7 @@ See the Esolangs WIKI article: https://esolangs.org/wiki/SANTA
 
 Source code: https://github.com/EarthRulerr/SANTA-Esolang
 
-Run SANTA code: https://replit.com/@EarthRulerr/SANTA-Esolang?v=1
+Run SANTA code: https://santa.earthrulerr.repl.co
 
 # HOW TO USE
 
