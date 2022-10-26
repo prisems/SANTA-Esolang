@@ -21,7 +21,7 @@ int main() {
   cin >> start;
   if(start == "CHRISTMAS!"){
   while (loop == 1) {
-    int line = line + 1;
+    line = line + 1;
     cout << "> ";
 	cin>>input;
 	if (input == "SANTA!"){
